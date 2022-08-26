@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Cronómetro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+   
+    <!-- Html (Estructura)-->
+
+    <div class="marco">
+        <div class="tiempo" id="tiempo">
+            00:00:00.000
+        </div>
+
+        <div class="botones" id="botones">
+            
+            <div class="btn" id="play"> 
+                <i class="fa-solid fa-circle-play" onclick="play()"></i>    
+            </div>
+
+            <div class="btn" id="pause">
+                <i class="fa-solid fa-circle-pause" onclick="pause()"></i>
+            </div>
+
+            <div class="btn" id="restart" >
+                <i class="fa-solid fa-circle-stop" onclick="restart()"></i>
+            </div>
+            
+        </div>
+
+        
+
+    </div>
+<script src="contador.js"></script>
+
+</body>
+</html>

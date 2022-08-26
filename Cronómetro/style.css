@@ -1,0 +1,30 @@
+*{
+    transition: all 0.3s;
+}
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(244, 244, 247);
+    background: linear-gradient(white,rgb(1, 46, 61));
+}
+
+.marco{
+    border-radius: 30px;
+    background-color: rgb(6, 1, 32);
+    padding: 15px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    display: inline-block;
+    font-size: larger;
+    padding: 7px;
+}
